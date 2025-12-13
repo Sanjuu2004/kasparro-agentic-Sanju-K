@@ -381,17 +381,13 @@ Agent specifications: docs/agents.md
 API reference: docs/api.md
 
 ## Contributing
-Fork the repository
+1.Fork the repository
+2.Create feature branch: git checkout -b feature/new-agent
+3.Commit changes: git commit -am 'Add new agent'
+4.Push to branch: git push origin feature/new-agent
+5.Submit pull request
 
-Create feature branch: git checkout -b feature/new-agent
-
-Commit changes: git commit -am 'Add new agent'
-
-Push to branch: git push origin feature/new-agent
-
-Submit pull request
-
-Development Setup
+**Development Setup**
 ```text
 # Clone repository
 git clone https://github.com/yourusername/kasparro-ai-agentic-content-generation-system.git
@@ -409,10 +405,7 @@ pytest tests/
 ```
 ## Acknowledgments
 Kasparro for the Applied AI Engineer Challenge
-
 Google AI for the Gemini API free tier
-
 LangChain/LangGraph teams for the excellent frameworks
-
 Open-source community for inspiration and tools
 
