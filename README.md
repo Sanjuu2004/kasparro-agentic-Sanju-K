@@ -403,9 +403,3 @@ pip install -r requirements-dev.txt
 # Run tests
 pytest tests/
 ```
-## Acknowledgments
-Kasparro for the Applied AI Engineer Challenge
-Google AI for the Gemini API free tier
-LangChain/LangGraph teams for the excellent frameworks
-Open-source community for inspiration and tools
-
