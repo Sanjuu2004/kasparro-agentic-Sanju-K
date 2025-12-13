@@ -38,30 +38,30 @@ This is a **modular agentic automation system** designed for Kasparro's Applied 
 ```text
 ┌─────────────────┐
 │ Raw Product     │
-│ Data            │
+│     Data        │
 └────────┬────────┘
          ▼
 ┌─────────────────┐
 │ Data Processor  │◄── Parse & Validate
 └────────┬────────┘
          ▼
-┌─────────────────────────────────────┐
-│      Parallel Agent Execution       │
-├─────────────────┬───────────────────┤
-│                 │                   │
-▼                 ▼                   ▼
+  ┌─────────────────────────────────────┐
+  │      Parallel Agent Execution       │
+  ├─────────────────┬───────────────────┤
+  │                 │                   │
+  ▼                 ▼                   ▼
 ┌──────────────┐ ┌──────────────┐ ┌──────────────┐
-│ Question      │ │ Product Page │ │ Fictional    │
-│ Generator     │ │ Generator    │ │ Product      │
+│ Question     │ │ Product Page │ │ Fictional    │
+│ Generator    │ │ Generator    │ │ Product      │
 └──────┬───────┘ └──────┬───────┘ └──────┬───────┘
-       │                 │                 │
-       ▼                 │                 │
-┌──────────────┐         │                 │
-│ FAQ          │◄────────┘                 │
-│ Generator    │                           │
-└──────┬───────┘                           │
-       │                                    │
-       └─────────────────┬──────────────────┘
+       │                 │               │
+       ▼                 │               │
+┌──────────────┐         │               │
+│ FAQ          │◄────────┘               │
+│ Generator    │                         │
+└──────┬───────┘                         │
+       │                                 │
+       └─────────────────┬───────────────┘
                          ▼
                 ┌─────────────────┐
                 │ Comparison      │
