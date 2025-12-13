@@ -392,7 +392,7 @@ Push to branch: git push origin feature/new-agent
 Submit pull request
 
 Development Setup
-bash
+```text
 # Clone repository
 git clone https://github.com/yourusername/kasparro-ai-agentic-content-generation-system.git
 
@@ -406,9 +406,7 @@ pip install -r requirements-dev.txt
 
 # Run tests
 pytest tests/
-📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
+```
 ## Acknowledgments
 Kasparro for the Applied AI Engineer Challenge
 
