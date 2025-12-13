@@ -35,6 +35,7 @@ This is a **modular agentic automation system** designed for Kasparro's Applied 
 | **ProductComparatorAgent** | Creates fictional products and generates comparisons | `ComparisonPage` with detailed analysis |
 
 ### Workflow Flowchart
+```text
 ┌─────────────────┐
 │ Raw Product │
 │ Data │
@@ -71,8 +72,7 @@ This is a **modular agentic automation system** designed for Kasparro's Applied 
 │ JSON Output │
 │ Compilation │
 └─────────────────┘
-
-text
+```
 
 ## 🚀 Quick Start
 
