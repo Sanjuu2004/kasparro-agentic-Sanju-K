@@ -381,12 +381,13 @@ Agent specifications: docs/agents.md
 API reference: docs/api.md
 
 ## Contributing
+```text
 1.Fork the repository
 2.Create feature branch: git checkout -b feature/new-agent
 3.Commit changes: git commit -am 'Add new agent'
 4.Push to branch: git push origin feature/new-agent
 5.Submit pull request
-
+```
 **Development Setup**
 ```text
 # Clone repository
