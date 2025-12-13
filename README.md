@@ -116,7 +116,7 @@ kasparro-ai-agentic-content-generation-system/
 ```
 ## Configuration:
 
-**Environment Variables**
+**Environment Variables**:
 Create a .env file in the root directory:
 ```text
 env
