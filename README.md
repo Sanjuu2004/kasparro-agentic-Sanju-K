@@ -115,6 +115,7 @@ kasparro-ai-agentic-content-generation-system/
         └── main_agents.py        # Alternative agent runner
 ```
 ## Configuration
+
 **Environment Variables**
 Create a .env file in the root directory:
 ```text
