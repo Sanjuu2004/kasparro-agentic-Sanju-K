@@ -179,9 +179,10 @@ json
 }
 ```
 ## Output Examples
+**FAQ Output (faq.json)**
 ```text
-FAQ Output (faq.json)
 json
+
 {
   "product": "GlowBoost Vitamin C Serum",
   "faq_items": [
@@ -196,7 +197,10 @@ json
   "source": "google_gemini",
   "model": "gemini-2.0-flash"
 }
-Product Page Output (product_page.json)
+```
+**Product Page Output (product_page.json)**
+```text
+
 json
 {
   "title": "GlowBoost Vitamin C Serum - Advanced Skincare Solution",
@@ -213,8 +217,11 @@ json
     }
   ]
 }
-Comparison Output (comparison_page.json)
+```
+**Comparison Output (comparison_page.json)**
+```text
 json
+
 {
   "title": "Comparison: GlowBoost Vitamin C Serum vs RadiantGlow Niacinamide Serum",
   "products": [
@@ -367,8 +374,8 @@ Implement provider-specific agent adapters
 
 Update .env configuration
 
-📚 Documentation
-API Documentation
+## Documentation
+**API Documentation**
 Google Gemini API: https://ai.google.dev/gemini-api
 
 LangChain Documentation: https://python.langchain.com
@@ -382,7 +389,7 @@ Agent specifications: docs/agents.md
 
 API reference: docs/api.md
 
-👥 Contributing
+## Contributing
 Fork the repository
 
 Create feature branch: git checkout -b feature/new-agent
@@ -411,7 +418,7 @@ pytest tests/
 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-🙏 Acknowledgments
+## Acknowledgments
 Kasparro for the Applied AI Engineer Challenge
 
 Google AI for the Gemini API free tier
@@ -420,16 +427,3 @@ LangChain/LangGraph teams for the excellent frameworks
 
 Open-source community for inspiration and tools
 
-
-📝 Key Highlights of This README:
-Professional Presentation: Clean badges, clear structure, and comprehensive coverage
-
-Gemini API Focus: Explicitly mentions the free-tier Google Gemini integration throughout
-
-Assignment Requirements: Clear mapping showing how each requirement is met
-
-Troubleshooting Guide: Includes solutions for common issues (404, 429 errors)
-
-Complete Documentation: Architecture diagrams, examples, and extension guidelines
-
-Production-Ready: Includes performance metrics, optimization tips, and testing procedures
