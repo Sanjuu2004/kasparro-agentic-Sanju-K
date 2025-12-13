@@ -35,44 +35,8 @@ This is a **modular agentic automation system** designed for Kasparro's Applied 
 | **ProductComparatorAgent** | Creates fictional products and generates comparisons | `ComparisonPage` with detailed analysis |
 
 ### Workflow Flowchart
-```text
-┌─────────────────┐
-│ Raw Product     │
-│     Data        │
-└────────┬────────┘
-         ▼
-┌─────────────────┐
-│ Data Processor  │◄── Parse & Validate
-└────────┬────────┘
-         ▼
-  ┌─────────────────────────────────────┐
-  │      Parallel Agent Execution       │
-  ├─────────────────┬───────────────────┤
-  │                 │                   │
-  ▼                 ▼                   ▼
-┌──────────────┐ ┌──────────────┐ ┌──────────────┐
-│ Question     │ │ Product Page │ │ Fictional    │
-│ Generator    │ │ Generator    │ │ Product      │
-└──────┬───────┘ └──────┬───────┘ └──────┬───────┘
-       │                 │               │
-       ▼                 │               │
-┌──────────────┐         │               │
-│ FAQ          │◄────────┘               │
-│ Generator    │                         │
-└──────┬───────┘                         │
-       │                                 │
-       └─────────────────┬───────────────┘
-                         ▼
-                ┌─────────────────┐
-                │ Comparison      │
-                │ Generator       │
-                └────────┬────────┘
-                         ▼
-                ┌─────────────────┐
-                │ JSON Output     │
-                │ Compilation     │
-                └─────────────────┘
-```
+<img width="1064" height="908" alt="image" src="https://github.com/user-attachments/assets/afd05b15-a465-4e8a-8b97-d8e5ebdc3cea" />
+
 
 ## Quick Start
 ```text
