@@ -179,6 +179,7 @@ json
 }
 ```
 ## Output Examples
+```text
 FAQ Output (faq.json)
 json
 {
@@ -236,6 +237,7 @@ json
     }
   ]
 }
+```
 ## 🧪 Testing & Verification
 Verify Setup
 bash
@@ -337,7 +339,7 @@ Connection pooling: Reuse Gemini API connections
 
 Fallback strategies: Use template content when API fails
 
-🔄 Extending the System
+## Extending the System
 Adding New Agents
 Create agent class in src/agents/
 
