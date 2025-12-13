@@ -74,7 +74,7 @@ This is a **modular agentic automation system** designed for Kasparro's Applied 
                 └─────────────────┘
 ```
 
-## 🚀 Quick Start
+## Quick Start
 ```text
 ### Prerequisites
 - Python 3.11 or higher
@@ -113,7 +113,7 @@ python run.py
 # Run individual agents (alternative)
 python -m src.utils.main_agents
 ```
-📁 Project Structure
+## Project Structure
 ```text
 kasparro-ai-agentic-content-generation-system/
 ├── .env                          # Environment configuration
