@@ -177,7 +177,8 @@ json
   "side_effects": "Mild tingling for sensitive skin",
   "price": "₹699"
 }
-📊 Output Examples
+```
+## Output Examples
 FAQ Output (faq.json)
 json
 {
@@ -235,21 +236,21 @@ json
     }
   ]
 }
-🧪 Testing & Verification
+## 🧪 Testing & Verification
 Verify Setup
 bash
-# Test all imports
+**Test all imports**
 python test_imports.py
 
-# Verify Gemini API connection
+**Verify Gemini API connection**
 python verify_llm.py
 
-# Run unit tests
+**Run unit tests**
+```text
 python -m pytest tests/
 Expected Output
 When running python run.py, you should see:
-
-text
+```text
 🚀 Starting content generation workflow with Google Gemini...
    Model: gemini-2.0-flash
    Using: LangGraph workflow
@@ -274,15 +275,17 @@ Reusable logic blocks	✅	Content logic blocks in core/logic_blocks.py
 Fictional Product B	✅	ProductComparatorAgent creates contrasting product
 LLM-driven content	✅	100% Google Gemini API generated
 Clean architecture	✅	Modular, extensible, production-ready design
-🐛 Troubleshooting
-Common Issues
-"404 model not found" error
+```
+## Troubleshooting
+**Common Issues**
+```text
+**"404 model not found" error**
 
 Update .env to use latest Gemini models: gemini-2.0-flash or gemini-2.5-flash-lite
 
 Run: python verify_llm.py to test connection
 
-"429 quota exceeded" error
+**"429 quota exceeded" error**
 
 Ensure billing is enabled in Google Cloud Console
 
@@ -290,7 +293,7 @@ Request Tier 1 upgrade via Google AI Developers Forum
 
 Use gemini-2.5-flash-lite as temporary alternative
 
-Import errors
+**Import errors**
 
 Install all dependencies: pip install -r requirements.txt
 
@@ -306,7 +309,7 @@ Run with verbose logging: LOG_LEVEL=DEBUG python run.py
 
 Debug Mode
 Enable detailed logging for troubleshooting:
-
+```
 bash
 export LOG_LEVEL=DEBUG
 python run.py
