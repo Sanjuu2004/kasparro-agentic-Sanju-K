@@ -37,59 +37,55 @@ This is a **modular agentic automation system** designed for Kasparro's Applied 
 ### Workflow Flowchart
 ```text
 ┌─────────────────┐
-│ Raw Product │
-│ Data │
+│ Raw Product     │
+│ Data            │
 └────────┬────────┘
-▼
+         ▼
 ┌─────────────────┐
-│ Data Processor │◄── Parse & Validate
+│ Data Processor  │◄── Parse & Validate
 └────────┬────────┘
-▼
+         ▼
 ┌─────────────────────────────────────┐
-│ Parallel Agent Execution │
+│      Parallel Agent Execution       │
 ├─────────────────┬───────────────────┤
-│ │ │
-▼ ▼ ▼
+│                 │                   │
+▼                 ▼                   ▼
 ┌──────────────┐ ┌──────────────┐ ┌──────────────┐
-│ Question │ │ Product Page │ │ Fictional │
-│ Generator │ │ Generator │ │ Product │
+│ Question      │ │ Product Page │ │ Fictional    │
+│ Generator     │ │ Generator    │ │ Product      │
 └──────┬───────┘ └──────┬───────┘ └──────┬───────┘
-│ │ │
-▼ │ │
-┌──────────────┐ │ │
-│ FAQ │ │ │
-│ Generator │◄───────┤ │
-└──────┬───────┘ │ │
-│ │ │
-└─────────────────┼─────────────────┘
-▼
-┌─────────────────┐
-│ Comparison │
-│ Generator │
-└────────┬────────┘
-▼
-┌─────────────────┐
-│ JSON Output │
-│ Compilation │
-└─────────────────┘
+       │                 │                 │
+       ▼                 │                 │
+┌──────────────┐         │                 │
+│ FAQ          │◄────────┘                 │
+│ Generator    │                           │
+└──────┬───────┘                           │
+       │                                    │
+       └─────────────────┬──────────────────┘
+                         ▼
+                ┌─────────────────┐
+                │ Comparison      │
+                │ Generator       │
+                └────────┬────────┘
+                         ▼
+                ┌─────────────────┐
+                │ JSON Output     │
+                │ Compilation     │
+                └─────────────────┘
 ```
 
 ## 🚀 Quick Start
-
+```text
 ### Prerequisites
 - Python 3.11 or higher
 - Google Gemini API key (free from [Google AI Studio](https://makersuite.google.com/app/apikey))
 - Git
 
 ### Installation
-
 1. **Clone the repository**
-   ```bash
    git clone https://github.com/yourusername/kasparro-ai-agentic-content-generation-system.git
    cd kasparro-ai-agentic-content-generation-system
 Set up environment
-
-bash
 # Install dependencies
 pip install -r requirements.txt
 
@@ -116,8 +112,9 @@ python run.py
 
 # Run individual agents (alternative)
 python -m src.utils.main_agents
+```
 📁 Project Structure
-text
+```text
 kasparro-ai-agentic-content-generation-system/
 ├── .env                          # Environment configuration
 ├── requirements.txt              # Python dependencies
@@ -152,10 +149,11 @@ kasparro-ai-agentic-content-generation-system/
     │   └── workflow.py           # LangGraph workflow
     └── utils/                    # Utility modules
         └── main_agents.py        # Alternative agent runner
+```
 🔧 Configuration
 Environment Variables
 Create a .env file in the root directory:
-
+```text
 env
 # Google Gemini Configuration (FREE TIER)
 GOOGLE_API_KEY=your_gemini_api_key_here
@@ -255,7 +253,7 @@ text
 🚀 Starting content generation workflow with Google Gemini...
    Model: gemini-2.0-flash
    Using: LangGraph workflow
-
+```
 ✅ Parsed: GlowBoost Vitamin C Serum
 ✅ Generated 15 questions using Gemini
 ✅ Created fictional product: RadiantGlow Niacinamide Serum
