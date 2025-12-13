@@ -1,0 +1,46 @@
+{
+  "product": "GlowBoost Vitamin C Serum",
+  "faq_items": [
+    {
+      "question": "What is GlowBoost Vitamin C Serum?",
+      "answer": "This is a sample answer for: What is GlowBoost Vitamin C Serum?",
+      "category": "informational",
+      "tags": [
+        "sample"
+      ]
+    },
+    {
+      "question": "How do I use GlowBoost Vitamin C Serum?",
+      "answer": "This is a sample answer for: How do I use GlowBoost Vitamin C Serum?",
+      "category": "usage",
+      "tags": [
+        "sample"
+      ]
+    },
+    {
+      "question": "Is GlowBoost Vitamin C Serum safe for my skin?",
+      "answer": "This is a sample answer for: Is GlowBoost Vitamin C Serum safe for my skin?",
+      "category": "safety",
+      "tags": [
+        "sample"
+      ]
+    },
+    {
+      "question": "What are the benefits of GlowBoost Vitamin C Serum?",
+      "answer": "This is a sample answer for: What are the benefits of GlowBoost Vitamin C Serum?",
+      "category": "effectiveness",
+      "tags": [
+        "sample"
+      ]
+    },
+    {
+      "question": "How does GlowBoost Vitamin C Serum compare to other products?",
+      "answer": "This is a sample answer for: How does GlowBoost Vitamin C Serum compare to other products?",
+      "category": "comparison",
+      "tags": [
+        "sample"
+      ]
+    }
+  ],
+  "generated_at": "now"
+}

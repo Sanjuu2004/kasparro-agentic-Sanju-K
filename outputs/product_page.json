@@ -1,0 +1,47 @@
+{
+  "title": "GlowBoost Vitamin C Serum - Advanced Skincare Solution",
+  "meta_description": "GlowBoost Vitamin C Serum with 10% Vitamin C for Brightening, Fades dark spots",
+  "hero_section": {
+    "headline": "Transform Your Skin with GlowBoost Vitamin C Serum",
+    "subheadline": "Clinically formulated with 10% Vitamin C"
+  },
+  "benefits_section": [
+    {
+      "benefit": "Brightening",
+      "description": "Provides effective Brightening"
+    },
+    {
+      "benefit": "Fades dark spots",
+      "description": "Provides effective Fades dark spots"
+    }
+  ],
+  "ingredients_section": [
+    {
+      "ingredient": "Vitamin C",
+      "description": "Key active ingredient"
+    },
+    {
+      "ingredient": "Hyaluronic Acid",
+      "description": "Key active ingredient"
+    }
+  ],
+  "usage_section": {
+    "instructions": "Apply 2\u20133 drops in the morning before sunscreen",
+    "tips": [
+      "Apply to clean skin",
+      "Use consistently for best results"
+    ]
+  },
+  "safety_section": {
+    "warnings": [
+      "Mild tingling for sensitive skin"
+    ],
+    "precautions": [
+      "Patch test recommended"
+    ]
+  },
+  "pricing_section": {
+    "price": "\u20b9699",
+    "value_proposition": "Premium formulation"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "products": [
+    {
+      "name": "GlowBoost Vitamin C Serum",
+      "concentration": "10% Vitamin C",
+      "skin_type": [
+        "Oily",
+        "Combination"
+      ],
+      "key_ingredients": [
+        "Vitamin C",
+        "Hyaluronic Acid"
+      ],
+      "benefits": [
+        "Brightening",
+        "Fades dark spots"
+      ],
+      "how_to_use": "Apply 2\u20133 drops in the morning before sunscreen",
+      "side_effects": "Mild tingling for sensitive skin",
+      "price": "\u20b9699"
+    },
+    {
+      "name": "RadiantGlow Vitamin C + E Serum",
+      "concentration": "15% Vitamin C + 2% Vitamin E",
+      "skin_type": [
+        "Dry",
+        "Normal",
+        "Sensitive"
+      ],
+      "key_ingredients": [
+        "Vitamin C (L-ascorbic acid)",
+        "Vitamin E",
+        "Ferulic Acid"
+      ],
+      "benefits": [
+        "Antioxidant Protection",
+        "Hydration",
+        "Reduces Inflammation"
+      ],
+      "how_to_use": "Apply 3-4 drops morning and evening on clean, dry skin",
+      "side_effects": "Mild tingling may occur on first use",
+      "price": "\u20b91,299"
+    }
+  ],
+  "comparison_points": [
+    {
+      "aspect": "Price",
+      "main_product": "\u20b9699",
+      "fictional_product": "\u20b91,299",
+      "verdict": "Different price points"
+    }
+  ],
+  "summary": "Comparison between products",
+  "recommendation": "Choose based on your specific needs"
+}

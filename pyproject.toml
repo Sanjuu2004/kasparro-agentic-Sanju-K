@@ -1,13 +1,17 @@
 [project]
-name = "kasparro-content-system"
+name = "kasparro-ai-agentic-content-generation-system"
 version = "1.0.0"
-description = "Multi-Agent Content Generation System"
+description = "Multi-Agent Content Generation System using LangChain"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
-    "pydantic>=2.0.0",
-    "networkx>=3.0",
-    "matplotlib>=3.7",
+    "langchain>=0.1.0",
+    "langchain-openai>=0.0.2",
+    "langgraph>=0.0.12",
+    "pydantic>=2.5.0",
+    "python-dotenv>=1.0.0",
+    "openai>=1.3.0",
+    "tenacity>=8.2.2",
 ]
 
 [project.optional-dependencies]
@@ -16,8 +20,13 @@ dev = [
     "black>=23.0",
     "mypy>=1.0",
     "pytest-asyncio>=0.21.0",
+    "ipython>=8.0.0",
 ]
 
 [build-system]
 requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
+
+[tool.black]
+line-length = 88
+target-version = ['py311']
