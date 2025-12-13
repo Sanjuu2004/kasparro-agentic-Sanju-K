@@ -1,4 +1,4 @@
-# 🚀 Multi-Agent Content Generation System - Kasparro AI Engineer Challenge
+# Multi-Agent Content Generation System - Kasparro AI Engineer Challenge
 
 <div align="center">
 
@@ -12,11 +12,11 @@
 
 </div>
 
-## 📋 Overview
+## Overview
 
 This is a **modular agentic automation system** designed for Kasparro's Applied AI Engineer Challenge. The system takes minimal product data and autonomously generates structured, machine-readable content pages through a sophisticated multi-agent workflow.
 
-### ✨ Key Features
+###  Key Features
 - **Multi-Agent Architecture**: Specialized agents with clear responsibilities and boundaries
 - **Google Gemini Integration**: Uses free-tier Google Gemini API for 100% LLM-driven content generation
 - **LangGraph Orchestration**: Production-grade workflow management with state tracking
@@ -24,7 +24,7 @@ This is a **modular agentic automation system** designed for Kasparro's Applied 
 - **Structured JSON Output**: Machine-readable outputs in clean JSON format
 - **Production-Ready**: Error handling, fallback mechanisms, and comprehensive logging
 
-## 🏗️ System Architecture
+## System Architecture
 
 ### Agent Roles & Responsibilities
 | Agent | Responsibility | Output |
@@ -246,24 +246,24 @@ json
 }
 ```
 ## 🧪 Testing & Verification
-Verify Setup
-bash
-**Test all imports**
+**Verify Setup**
+```text
+#Test all imports
 python test_imports.py
 
-**Verify Gemini API connection**
+#Verify Gemini API connection
 python verify_llm.py
 
-**Run unit tests**
-```text
+#Run unit tests
 python -m pytest tests/
-Expected Output
+```
+## Expected Output
 When running python run.py, you should see:
 ```text
 🚀 Starting content generation workflow with Google Gemini...
    Model: gemini-2.0-flash
    Using: LangGraph workflow
-```
+
 ✅ Parsed: GlowBoost Vitamin C Serum
 ✅ Generated 15 questions using Gemini
 ✅ Created fictional product: RadiantGlow Niacinamide Serum
@@ -274,16 +274,6 @@ When running python run.py, you should see:
 
 🎉 Content Generation Complete with Gemini!
 ✅ 100% LLM-generated content verified
-🎯 Meeting Assignment Requirements
-Requirement	Status	Implementation
-Multi-agent workflow	✅	LangChain + LangGraph with 4 specialized agents
-15+ categorized questions	✅	QuestionGeneratorAgent with 7 question categories
-3 content templates	✅	FAQ, Product Page, Comparison templates
-Reusable logic blocks	✅	Content logic blocks in core/logic_blocks.py
-3 JSON output files	✅	faq.json, product_page.json, comparison_page.json
-Fictional Product B	✅	ProductComparatorAgent creates contrasting product
-LLM-driven content	✅	100% Google Gemini API generated
-Clean architecture	✅	Modular, extensible, production-ready design
 ```
 ## Troubleshooting
 **Common Issues**
@@ -308,7 +298,7 @@ Install all dependencies: pip install -r requirements.txt
 
 Check Python version: python --version (requires 3.11+)
 
-No output files generated
+**No output files generated**
 
 Check outputs/ directory permissions
 
@@ -316,28 +306,29 @@ Verify .env file has correct API key
 
 Run with verbose logging: LOG_LEVEL=DEBUG python run.py
 
-Debug Mode
+## Debug Mode
 Enable detailed logging for troubleshooting:
 ```
-bash
 export LOG_LEVEL=DEBUG
 python run.py
-📈 Performance & Optimization
-Execution Time
+```
+## Performance & Optimization
+**Execution Time**
+
 First run: 20-30 seconds (includes API warm-up)
 
 Subsequent runs: 10-15 seconds (cached connections)
 
 Without LLM calls: < 2 seconds (fallback templates)
-
-Token Usage
+**
+Token Usage**
 Average per run: 3,000-5,000 tokens
 
 Cost (free tier): $0.00/month (Gemini free tier)
 
 Cost (paid tier): ~$0.01-$0.02 per run
 
-Optimization Tips
+**Optimization Tips**
 Batch processing: Process multiple products in sequence
 
 Template caching: Cache frequently used templates
