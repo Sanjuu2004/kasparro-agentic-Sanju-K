@@ -373,7 +373,7 @@ LangChain Documentation: https://python.langchain.com
 
 LangGraph Documentation: https://langchain-ai.github.io/langgraph
 
-Project Documentation
+**Project Documentation**
 Full system design: docs/projectdocumentation.md
 
 Agent specifications: docs/agents.md
