@@ -305,10 +305,10 @@ Check outputs/ directory permissions
 Verify .env file has correct API key
 
 Run with verbose logging: LOG_LEVEL=DEBUG python run.py
-
+```
 ## Debug Mode
 Enable detailed logging for troubleshooting:
-```
+```text
 export LOG_LEVEL=DEBUG
 python run.py
 ```
